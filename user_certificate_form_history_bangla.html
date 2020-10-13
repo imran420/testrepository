@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>DMS by DevCtrl</title>
+	<link rel="stylesheet" type="text/css" href="css/header_style.css">
+	<link rel="stylesheet" type="text/css" href="css/history_middle_element.css">
+	<link rel="stylesheet" type="text/css" href="css/right_element.css">
+	<link rel="stylesheet" type="text/css" href="css/voterlist.css">
+
+
+
+	<!-- header font style [Poppins] -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+
+	<!-- Font Awesome CDN -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script type="text/javascript" src="javascript/header.js"></script>
+	<script type="text/javascript" src="javascript/moment.js"></script>
+
+</head>
+<body>
+	<div class="header">
+		<header class="header-user-dropdown">
+
+			<div class="header-limiter">
+				<h1><a href="#">Dev<span>Ctrl</span></a></h1>
+
+				<nav>
+					<a href="index.html">Dashboard</a>
+					<a href="#">Notice</a>
+					<a href="#">Reports</a>
+					<a href="#">Help <!-- <span class="header-new-feature">Admin</span> --></a>
+				</nav>
+
+
+				<div class="header-user-menu">
+					<img src="image/2.jpg" alt="User Image"/>
+
+					<ul>
+						<li><a href="#">Settings</a></li>
+						<li><a href="#" class="highlight">Logout</a></li>
+					</ul>
+				</div>
+
+			</div>
+
+		</header>
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+	<div class="main_body">
+		<div class="main_body_container">
+
+			
+			<!-- Body Right Side Element Start -->
+
+			<div class="dashboard_flexbox_right">
+				<div class="one">
+				<p>New Form & History</p>
+				<div class="underline">
+					<span></span>
+				</div>
+					<button class="tablink"><a href="new_user_registration_form.html">New Service Holder</a></button>
+					<button class="tablink"><a href="user_certificate_form_history.html">Service Holder List English</a></button>
+					<button class="tablink"><a href="user_certificate_form_history_bangla.html">Service Holder List Bangla</a></button>
+				</div>
+
+				<div class="two">
+				<p>Recent Notice</p>
+				<div class="underline">
+					<span></span>
+				</div>
+				<div class="dashboard_flexbox_right_notic">
+					<ul>
+						<li>Lorem Ipsum is simply </li>
+						<li>Lorem Ipsum is simply </li>
+						<li>Lorem Ipsum is simply </li>
+						<li>Lorem Ipsum is simply </li>
+						<li>Lorem Ipsum is simply </li>
+						<li>Lorem Ipsum is simply </li>
+						<li>Lorem Ipsum is simply </li>
+						<li>Lorem Ipsum is simply </li>
+						<li>Lorem Ipsum is simply </li>
+					</ul>
+				</div>
+				</div>
+			</div>
+
+
+			<!-- Body Right Side Element Start -->
+
+
+			<!-- Body Middle Side Element Start -->
+
+			<div class="main_body_container_field">
+				<p>Recent Form</p>
+				<h2>Please Recheck The Form Before Printing</h2>
+				<div class="underline_middle">
+					<span></span>
+				</div>
+
+				<div class="main_body_container_field_history_element">
+					<div class="list">
+						<ul>
+							<li>
+								<div class="list_flex">
+									<div class="list_flex_value">Name</div>
+									<div class="list_flex_value">Voter Id Card Number</div>
+									<div class="list_flex_value">Date of Birth</div>
+									<div class="list_flex_value">Last Certificate Issue</div>
+									<div class="list_flex_value">Details</div>
+									<div class="list_flex_value">Edit</div>
+
+								</div>
+							</li>
+						</ul>
+						<ul id="user-list-view-bangla">
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+			<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-storage.js"></script>
+			<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-firestore.js"></script>
+
+			<!-- TODO: Add SDKs for Firebase products that you want to use
+                 https://firebase.google.com/docs/web/setup#available-libraries -->
+
+			<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-analytics.js"></script>
+
+			<script src="javascript/databaseconfig.js"></script>
+			<script type="text/javascript" src="javascript/user_certificate_form_history_bangla.js"></script>
+
+		</div>
+	</div>
+</body>
+</html>

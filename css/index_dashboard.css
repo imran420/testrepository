@@ -1,0 +1,266 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #D3D3D3;
+}
+
+div,
+h1,
+h2,
+p,
+span
+{
+	margin: 0;
+	padding: 0;
+}
+
+hr
+{
+	color: white;
+}
+
+.dashboard
+{
+	width: 100%;
+	height: 100%;
+	margin-top: -50px;
+
+}
+
+.dashboard_flexbox
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.dashboard_flexbox_left
+{
+	width: 78%;
+	height: 100%;
+	/*background-image: linear-gradient(to right, #494b4f, #4b4d52, #4d5055, #4f5259, #51555c);*/
+	background-color: #E2E6EB;
+	border-radius: 10px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.dashboard_flexbox_left_head
+{
+	width: 95%;
+	margin-left: 2.5%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.dashboard_flexbox_left_head h1
+{
+	font-family: 'Poppins', sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	color: black;
+	text-align: center;
+}
+
+.dashboard_flexbox_left_flexbox
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.dashboard_flexbox_left_flexbox_one,
+.dashboard_flexbox_left_flexbox_two,
+.dashboard_flexbox_left_flexbox_three,
+.dashboard_flexbox_left_flexbox_four
+{
+	width: 23%;
+	height: 170px;
+	margin-right: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	transition: box-shadow 0.8s ease-in-out;
+}
+
+.dashboard_flexbox_left_flexbox_one:hover
+{
+	box-shadow: 10px 10px 28px -7px rgba(0,0,0,0.75);
+}
+
+.dashboard_flexbox_left_flexbox_two:hover
+{
+	box-shadow: 10px 10px 28px -7px rgba(0,0,0,0.75);
+}
+
+.dashboard_flexbox_left_flexbox_three:hover
+{
+	box-shadow: 10px 10px 28px -7px rgba(0,0,0,0.75);
+}
+
+.dashboard_flexbox_left_flexbox_four:hover
+{
+	box-shadow: 10px 10px 28px -7px rgba(0,0,0,0.75);
+}
+
+.dashboard_flexbox_left_flexbox_one
+{
+	background-image: linear-gradient(to right, #0ef1c3, #3bedc6, #53e9c9, #66e5cb, #76e1cc);
+}
+
+.dashboard_flexbox_left_flexbox_two
+{
+	background-image: linear-gradient(to right, #ffb851, #ffbc5b, #ffc064, #ffc36e, #ffc777);
+}
+
+.dashboard_flexbox_left_flexbox_three
+{
+	background-image: linear-gradient(to right, #50a1ff, #57a5ff, #5da9ff, #64acff, #6ab0ff);
+}
+
+.dashboard_flexbox_left_flexbox_four
+{
+	background-image: linear-gradient(to right, #ff5975, #ff637d, #ff6d85, #ff768c, #ff7f94);
+	margin-right: 0px;
+}
+
+.icon
+{
+	width: 35%;
+	/*background-color: red;*/
+}
+
+.icon img
+{
+	margin: auto;
+	display: block;
+	height: 60px;
+	width: 60px;
+	margin-top: 50px;
+}
+
+.text
+{
+	width:50%;
+	/*background-color: green;*/
+	height: 100%;
+	padding-left: 10px;
+	padding-top: 40px;
+}
+
+.text h1
+{
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	color: black;
+}
+
+.text h2
+{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color: black;
+}
+
+.text p
+{
+	font-family: 'Poppins', sans-serif;
+	font-size: 24px;
+	color: white;
+}
+
+
+/*SERVICE LIST DESIGN START*/
+
+.dashboard_flexbox_left_service_list_flexbox
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.dashboard_flexbox_left_service_list_flexbox_element
+{
+	width: 200px;
+	height: 80px;
+	/*background-color: red;*/
+	margin-right: 20px;
+	margin-bottom: 15px;
+	text-align: center;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-radius: 10px;
+	padding-top: 10px;
+}
+
+.dashboard_flexbox_left_service_list_flexbox_element a
+{
+	text-decoration: none;
+}
+
+.dashboard_flexbox_left_service_list_flexbox_element a img
+{
+	height: 40px;
+	width: 40px;
+	display: block;
+	margin: auto;
+}
+
+.dashboard_flexbox_left_service_list_flexbox_element a p
+{
+	font-family: 'Poppins', sans-serif;
+	/*text-align: center;*/
+	font-size: 13px;
+	padding-top: 10px;
+}
+
+.dashboard_flexbox_left_user_tabel
+{
+	width: 90%;
+	margin-left: 5%;
+}
+
+.dashboard_flexbox_left_user_tabel table
+{
+	width: 100%;
+}
+
+.dashboard_flexbox_left_user_tabel table tr th
+{
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	font-weight: 300;
+	background-color: #353C48;
+	margin-right: 5px;
+	padding: 10px 10px;
+	color: white;
+	border-radius: 5px;
+}
+
+.dashboard_flexbox_left_user_tabel table tr td
+{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	font-weight: 300;
+	margin-right: 5px;
+	padding: 10px 10px;
+	color: black;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+
+.dashboard_flexbox_left_user_tabel table tr td button
+{
+	border-radius: 10px;
+	padding: 5px 20px;
+}
+
+
+.dashboard_flexbox_left_user_tabel table tr:nth-child(even){background-color: #f2f2f2;}
+

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>DMS by DevCtrl</title>
+	<link rel="stylesheet" type="text/css" href="css/header_style.css">
+	<link rel="stylesheet" type="text/css" href="css/middle_element.css">
+	<link rel="stylesheet" type="text/css" href="css/right_element.css">
+
+
+	<!-- header font style [Poppins] -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+
+	<!-- Font Awesome CDN -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script type="text/javascript" src="javascript/header.js"></script>
+</head>
+<body>
+	<div class="header">
+		<header class="header-user-dropdown">
+
+			<div class="header-limiter">
+				<h1><a href="#">Dev<span>Ctrl</span></a></h1>
+
+				<nav>
+					<a href="index.html">Dashboard</a>
+					<a href="#">Notice</a>
+					<a href="#">Reports</a>
+					<a href="#">Help <!-- <span class="header-new-feature">Admin</span> --></a>
+				</nav>
+
+
+				<div class="header-user-menu">
+					<img src="image/2.jpg" alt="User Image"/>
+
+					<ul>
+						<li><a href="#">Settings</a></li>
+						<li><a href="#" class="highlight">Logout</a></li>
+					</ul>
+				</div>
+
+			</div>
+
+		</header>
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+	<div class="main_body">
+		<div class="main_body_container">
+
+
+			<!-- Body Right Side Element Start -->
+
+			<div class="dashboard_flexbox_right">
+				<div class="one">
+				<p>New Form & History</p>
+				<div class="underline">
+					<span></span>
+				</div>
+				<button class="tablink"><a href="new_user_registration_form.html">New Service Holder</a></button>
+					<button class="tablink"><a href="user_certificate_form_history.html">Service Holder List English</a></button>
+					<button class="tablink"><a href="user_certificate_form_history_bangla.html">Service Holder List Bangla</a></button>
+				</div>
+
+				<div class="two">
+				<p>Recent Notice</p>
+				<div class="underline">
+					<span></span>
+				</div>
+				<div class="dashboard_flexbox_right_notic">
+					<ul>
+						<li>Lorem Ipsum is simply </li>
+						<li>Lorem Ipsum is simply </li>
+						<li>Lorem Ipsum is simply </li>
+						<li>Lorem Ipsum is simply </li>
+						<li>Lorem Ipsum is simply </li>
+						<li>Lorem Ipsum is simply </li>
+						<li>Lorem Ipsum is simply </li>
+					</ul>
+				</div>
+				</div>
+			</div>
+
+
+			<!-- Body Right Side Element Start -->
+
+			<!-- Body Middle Side Element Start -->
+
+			<div class="main_body_container_field">
+				<p>Registration Form</p>
+				<h2>Please Fill Up the Form</h2>
+				<div class="underline_middle">
+					<span></span>
+				</div>
+				<form action="new_user_recent_form.php" method="post" id="regForm">
+
+
+					<!-- Personal Information -->
+
+					<div class="tab">
+						<p>Personal Information</p>
+						<div class="main_body_container_field_element">
+							<div class="main_body_container_field_element_left">
+								<div class="personal_info">
+									<label>Name(In English) :</label>
+									<input type="text" id="Ename" name="Ename" placeholder="Enter Full Name" required>
+								</div>
+								<div class="personal_info">
+									<label>Father's/Husband Name(In English) :</label>
+									<input type="text" id="Efathername" name="Efathername" placeholder="Enter Father's Name" required>
+								</div>
+								<div class="personal_info">
+									<label>Mother Name(In English) :</label>
+									<input type="text" id="Emothername" name="Emothername" placeholder="Enter Mother's Name" required>
+								</div>
+								<div class="personal_info">
+									<label>Mobile Number(In English) :</label>
+									<input type="text" id="Emobilenumber" name="Emobilenumber" placeholder="Enter Mobile Number" required>
+								</div>
+								<div class="personal_info">
+									<label>Date Of Birth 	:</label>
+									<input type="date" id="Edateofbirth" name="Edateofbirth" required>
+								</div>
+							</div>
+							<div class="main_body_container_field_element_right">
+								<div class="personal_info">
+									<label>Name(In Bangla) :</label>
+									<input type="text" id="Bname" name="Bname" placeholder="নাম " required>
+								</div>
+								<div class="personal_info">
+									<label>Father's/Husband Name(In Bangla) :</label>
+									<input type="text" id="Bfathername" name="Bfathername" placeholder="পিতার নাম " required>
+								</div>
+								<div class="personal_info">
+									<label>Mother Name(In Bangla) :</label>
+									<input type="text" id="Bmothername" name="Bmothername" placeholder="মাতার নাম " required>
+								</div>
+								<div class="personal_info">
+									<label>Mobile Number(In Bangla) :</label>
+									<input type="text" id="Bmobilenumber" name="Bmobilenumber" placeholder="মোবাইল নম্বর " required>
+								</div>
+							</div>
+						</div>
+						<div class="personal_info_voter">
+							<label>National/Birth Certificate Number(In English) :</label>
+							<input type="text" id="Evoteridnumber" name="Evoteridnumber" placeholder="Voter/Birth Id Number" required>
+						</div>
+					</div>
+
+					<!-- Permanent & Present Address -->
+
+					<div class="tab">
+						<p>Present Address</p>
+						<div class="main_body_container_field_element">
+							<div class="main_body_container_field_element_left">
+								<div class="personal_info">
+									<label>House Number(In English) :</label>
+									<input type="text" id="Ehousenumber" name="Ehousenumber" placeholder="Enter House Number" required>
+								</div>
+								<div class="personal_info">
+									<label>Road Number(In English) :</label>
+									<input type="text" id="Eroadnumber" name="Eroadnumber" placeholder="Enter Road Number" required>
+								</div>
+								<div class="personal_info">
+									<label>Block Number :</label>
+									<input type="text" id="Eblocknumber" name="Eblocknumber" placeholder="Enter Block Number" required>
+								</div>
+							</div>
+							<div class="main_body_container_field_element_right">
+								<div class="personal_info">
+									<label>House Number(In English) :</label>
+									<input type="text" id="Bhousenumber" name="Bhousenumber" placeholder="বাসা নম্বর " required>
+								</div>
+								<div class="personal_info">
+									<label>Road Number(In Bangla) :</label>
+									<input type="text" id="Broadnumber" name="Broadnumber" placeholder="রোড নম্বর " required>
+								</div>
+								<div class="personal_info">
+									<label>Block Number(In Bangla) :</label>
+									<input type="text" id="Bblocknumber" name="Bblocknumber" placeholder="ব্লক নম্বর " required>
+								</div>
+							</div>
+						</div>
+
+						<p>Permanent Address</p>
+						<div class="main_body_container_field_element">
+							<div class="main_body_container_field_element_left">
+								<div class="personal_info">
+									<label>Village Name(In English) :</label>
+									<input type="text" id="Evillagename" name="Evillagename" placeholder="Enter Village Name" required>
+								</div>
+								<div class="personal_info">
+									<label>District Name(In English) :</label>
+									<input type="text" id="Edistrictname" name="Edistrictname" placeholder="Enter District Name" required>
+								</div>
+								<div class="personal_info">
+									<label>Police Station(In English) :</label>
+									<input type="text" id="Epolicestation" name="Epolicestation" placeholder="Enter Police Station" required>
+								</div>
+
+								<div class="personal_info">
+									<label>Post Office(In English) :</label>
+									<input type="text" id="Epostoffice" name="Epostoffice" placeholder="Enter Post Office" required>
+								</div>
+							</div>
+							<div class="main_body_container_field_element_right">
+								<div class="personal_info">
+									<label>Village Name(In English) :</label>
+									<input type="text" id="Bvillagename" name="Bvillagename" placeholder="গ্রাম " required>
+								</div>
+								<div class="personal_info">
+									<label>District Name(In Bangla) :</label>
+									<input type="text" id="Bdistrictname" name="Bdistrictname" placeholder="জিলা " required>
+								</div>
+								<div class="personal_info">
+									<label>Police Station(In Bangla) :</label>
+									<input type="text" id="Bpolicestation" name="Bpolicestation" placeholder="থানা" required>
+								</div>
+								<div class="personal_info">
+									<label>Post Office(In Bangla) :</label>
+									<input type="text" id="Bpostoffice" name="Bpostoffice" placeholder="পোস্ট অফিস " required>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="tab">
+						<div class="wrapper">
+						  <div class="box">
+						  	<h3>Personal Image Upload</h3>
+						    <div class="js--image-preview"></div>
+						    <div class="upload-options">
+						      <label>
+						        <input type="file" class="image-upload" id="personal_image" accept="image/*" />
+								  <button type="button" onclick="uploadperImage()">Upload Image</button>
+						      </label>
+						    </div>
+						  </div>
+
+						  <div class="box">
+						  	<h3>Electricity Bill Upload</h3>
+						    <div class="js--image-preview"></div>
+						    <div class="upload-options">
+						      <label>
+						          <input type="file" class="image-upload" id="electricity_bill_image" accept="image/*" />
+								  <button  type="button" onclick="uploadelecImage()">Upload Image</button>
+							  </label>
+						    </div>
+						  </div>
+
+						  <div class="box">
+						  	<h3>Voter Id Card Upload</h3>
+						    <div class="js--image-preview"></div>
+						    <div class="upload-options">
+						      <label>
+								  <input type="file" class="image-upload" id="voter_id_image" accept="image/*" /><br>
+								  <button type="button" onclick="uploadnidImage()">Upload Image</button>
+							  </label>
+						    </div>
+						  </div>
+						</div>
+					</div>
+
+					<div style="overflow:auto;">
+					  <div class="button">
+					    <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+					    <button type="Submit" id="nextBtn" onclick="nextPrev(1)">Next</button>
+					  </div>
+					</div>
+
+					<!-- Circles which indicates the steps of the form: -->
+					<div style="text-align:center;margin-top:40px;">
+					  <span class="step"></span>
+					  <span class="step"></span>
+					  <span class="step"></span>
+					</div>
+				</form>
+
+			</div>
+
+
+			<script type="text/javascript" src="javascript/element.js"></script>
+			<script type="text/javascript" src="javascript/upload_image.js"></script>
+
+			<!-- Body Middle Side Element End -->
+
+			
+		</div>
+	</div>
+		<!-- The core Firebase JS SDK is always required and must be listed first-->
+		<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-storage.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-firestore.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+			 https://firebase.google.com/docs/web/setup#available-libraries -->
+
+		<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-analytics.js"></script>
+		<script src="javascript/databaseconfig.js"></script>
+		<script type="text/javascript" src="javascript/moment.js"></script>
+
+
+	<script>
+			// Your web app's Firebase configuration
+			function uploadperImage() {
+				const ref = firebase.storage().ref();
+				const file = document.querySelector("#personal_image").files[0];
+				const name = +new Date() + "-" + file.name;
+				const metadata = {
+					contentType: file.type
+				};
+				const task = ref.child(name).put(file, metadata);
+				task
+						.then(snapshot => snapshot.ref.getDownloadURL())
+						.then(url => {
+							console.log(url);
+							document.querySelector("#personal_image").src = url;
+							alert("Personal Photo Image Uploaded");
+							usersCollection.doc(Evoteridnumber.value).set({
+								personal_image: url
+
+							},{merge: true});
+						})
+						.catch(console.error);
+			}
+			function uploadelecImage() {
+				const ref = firebase.storage().ref();
+				const file = document.querySelector("#electricity_bill_image").files[0];
+				const name = +new Date() + "-" + file.name;
+				const metadata = {
+					contentType: file.type
+				};
+				const task = ref.child(name).put(file, metadata);
+				task
+						.then(snapshot => snapshot.ref.getDownloadURL())
+						.then(url => {
+							console.log(url);
+							document.querySelector("#electricity_bill_image").src = url;
+							alert("Electric bill Image Uploaded");
+							usersCollection.doc(Evoteridnumber.value).set({
+								electric_bill_image: url
+
+							},{merge: true});
+						})
+						.catch(console.error);
+			}
+			function uploadnidImage() {
+				const ref = firebase.storage().ref();
+				const file = document.querySelector("#voter_id_image").files[0];
+				const name = +new Date() + "-" + file.name;
+				const metadata = {
+					contentType: file.type
+				};
+				const task = ref.child(name).put(file, metadata);
+				task
+						.then(snapshot => snapshot.ref.getDownloadURL())
+						.then(url => {
+							console.log(url);
+							document.querySelector("#voter_id_image").src = url;
+							alert("National/Voter/Birth ID card Image Uploaded");
+							usersCollection.doc(Evoteridnumber.value).set({
+								voter_id_image: url
+
+							},{merge: true});
+						})
+						.catch(console.error);
+			}
+		</script>
+		<script src="javascript/Upload_file_functions.js"></script>
+
+</body>
+</html>
